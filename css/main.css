@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* First entry HTML Css start */
+
+.full-height {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.language-box {
+    width: 150px;
+}
+
+.language-box-text {
+    margin-top: 60px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #C4C4C4;
+    font-size: 17px;
+    font-weight: 300;
+    border-bottom: 1px solid #414141;
+}
+
+
+.language-box-text-to.active-top {
+    margin-top: 60px;
+}
+
+.language-box-text-to.active-border {
+    border-bottom: 1px solid #414141
+}
+
+
+.language-box-text-to {
+    margin-bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 300;
+    color: #212121;
+}
+
+.language-box-text-to .fa-chevron-up {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #C4C4C4;
+}
+
+.language-box .fa-chevron-down {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.gradient-button {
+    width: 105px;
+    height: 30px;
+    background: linear-gradient(270.9deg, #5403FF 0.33%, #00CCFF 99.93%);
+    border-radius: 5px;
+    bottom: 0;
+    color: white;
+    font-size: 14px;
+    border: none;
+    position: relative;
+    top: 22%;
+    margin-top: 36px;
+    margin-bottom: 0;
+    outline-color: transparent;
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease-in infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sign Up css */
+
+.button-group {
+    position: relative;
+    top: 22%;
+}
+
+.button-white:first-child {
+    margin-right: 14px;
+}
+
+.button-white {
+    border: 1px solid #B3B3B3;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 145px;
+}
+
+.logo-comp-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #989898;
+    position: relative;
+    top: 26%;
+    font-weight: 300;
+}
+
+/* Sign css */
+
+.form-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 10px;
+}
+
+.form-box input {
+    width: 100%;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 6px;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    outline: #4400FF;
+}
+
+.form-box input::placeholder {
+    color: #B6B6B6;
+    font-size: 13px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    margin-top: 16px;
+    color: #5BB0FF;
+    font-weight: 300;
+}
+
+/* registration css */
+
+.registration {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.registration nav {
+    width: 90%;
+}
+
+.registration nav p {
+    width: 50%;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #969696;
+    border-bottom: 2px solid #969696;
+}
+
+.registration .active {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+.registration .back {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 25px;
+    background: transparent;
+    border: none;
+    outline-color: transparent;
+    top: 2%;
+    left: 5%;
+    font-size: 30px;
+    color: black;
+}
+
+.registration .back-text {
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: 10px;
+    color: #242424;
+}
+
+.registration form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.input-phone {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.registration .form-box {
+    display: flex;
+    flex-direction: unset;
+    width: 90%;
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+.country-phone {
+    width: 25%;
+    text-align: center;
+    padding: 5px;
+}
+
+.country-phone-modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 99999;
+}
+
+.close-modal {
+    font-size: 16px;
+    position: absolute;
+    left: 16px;
+    top: 14px;
+    font-weight: 500;
+}
+
+.all-country-title {
+    display: block;
+    color: #929292;
+    font-size: 14px;
+}
+
+.all-country-text {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.all-country-code {
+    color: #929292;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+
+.country-code {
+    color: #729fc8;
+    text-align: center;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #d1d1d1;
+}
+
+.registration .form-box input {
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 10px 6px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 0;
+    outline: transparent;
+}
+
+.registration .form-box input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: unset;
+}
+
+.registration label {
+    color: #B6B6B6;
+    font-size: 13px;
+}
+
+.registration .form-box input::placeholder {
+    color: #B6B6B6;
+    font-size: 13px;
+    text-align: left;
+}
+
+
+.registration .gradient-button {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270.9deg, #5403FF 0.33%, #00CCFF 99.93%);
+    border-radius: 5px;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10%;
+    margin-top: 36px;
+    margin-bottom: 25px;
+    outline-color: transparent;
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease-in infinite;
+}
+
+.registration .form-box .registration-two-input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+}
+
+.form-group .registration-two-input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+}
+
+.form-group .registration-two-input::placeholder {
+    color: #B6B6B6;
+}
+
+.registration-two-input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+}
+
+.registration .change-num {
+    color: #3b93dd;
+}
+
+.Change {
+    font-size: 18px;
+    width: 90%;
+}
+
+.modal-confirm {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-confirm-block {
+    width: 300px;
+    height: 262px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #B0B0B0;
+    box-sizing: border-box;
+    border-radius: 22px;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.modal-confirm-text {
+    font-size: 14px;
+    text-align: center;
+    color: #343434;
+    padding: 0 30px;
+    transform: translateY(-10px);
+}
+
+.modal-for-blur .gradient-button{
+    top: -30%;
+}
+
+.modal-confirm .gradient-button {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270.9deg, #5403FF 0.33%, #00CCFF 99.93%);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 57%;
+    margin-top: 36px;
+    margin-bottom: 25px;
+    outline-color: transparent;
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease-in infinite;
+}
+
+/* Slider Page css start */
+
+.slider-body{
+    background: white;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 91%;
+    z-index: 10;
+}
+
+.start-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+    z-index: 10;
+}
+
+.start-box-shadow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: url("../images/shadow.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.start-box-shadow-box{
+    display: flex;
+    border-radius: 50%;
+    width: 155px;
+    height: 155px;
+    background: linear-gradient(279.57deg, #232FFF 0.37%, #0CAEFF 100%);
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    border: none;
+}
+
+.start-box-shadow-box:focus{
+    box-shadow: unset;
+    outline: unset;
+}
+
+.slider-icon-img{
+    width: 45px;
+    height: 40px;
+    margin-right: 34px;
+}
+
+.slider-icon-img-text{
+    color: #5C5C5C;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+}
+
+.flex p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #787878;
+    z-index: 10;
+}
+
+.flex .black {
+    color: black;
+    z-index: 10;
+}
+
+.flex span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 36px;
+    color: #787878;
+}
+
+.flex .pad-2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 27px;
+    color: #787878;
+    z-index: 10;
+}
+
+.flex .pad-3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 0;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #787878;
+    z-index: 10;
+}
+
+.gradient-text {
+    font-size: 29px;
+    font-weight: 800;
+    background: linear-gradient(
+            11.82deg,
+            #00ddff 0.06%,
+            #4400ff 46.48%,
+            #FF06E7 90%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    z-index: 10;
+    animation: AnimationName 5s infinite;
+}
+
+.gradient-text-2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(
+            11.82deg,
+            #FF06E7 10%,
+            #4400ff 46.48%,
+            #00ddff 90.06%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    animation: AnimationName 8s infinite;
+    z-index: 10;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+

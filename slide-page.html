@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+
+    <!-- Font css link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+
+    <!-- Bootstrap css link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css ">
+
+    <!-- Media screen css link -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Slide Page</title>
+</head>
+
+<body>
+<div class="slider-body">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" id="red">
+                <h2 class="gradient-text">Добро пожаловать!</h2>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="flex">
+                    <h2 class="gradient-text-2">Я Лингвэла</h2>
+                    <p class="pad-1">Твой надежный помощник в изучении анлийского</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="flex">
+                    <h2 class="gradient-text-2">Я подготовила </h2>
+                    <p>самые интересные материалы, для изучения анлийского языка, что бы тебе не было скучно)</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="start-box">
+                    <div class="start-box-shadow">
+                        <button type="button" class="start-box-shadow-box">
+                            START
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="h-100 d-flex flex-column align-items-start justify-content-center col-9">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <img src="images/apple.svg" class="slider-icon-img" alt="svg">
+
+                        <p class="mb-0 slider-icon-img-text">Самые полезные материалы</p>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                        <img src="images/music.svg" class="slider-icon-img" alt="svg">
+
+                        <p class="mb-0 slider-icon-img-text">Топовые песни с текстом на английском</p>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                        <img src="images/book.svg" class="slider-icon-img" alt="svg">
+
+                        <p class="mb-0 slider-icon-img-text">Книги бестселлеры
+                            на английском </p>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                        <img src="images/джостик.svg" class="slider-icon-img" alt="svg">
+
+                        <p class="mb-0 slider-icon-img-text">Игра “Wordbook”</p>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between mt-5">
+                        <img src="images/плей.svg" class="slider-icon-img" alt="svg">
+
+                        <p class="mb-0 slider-icon-img-text">Интересные фильмы на английском</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="backImg"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".swiper-container", {
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true
+        }
+    });
+</script>
+</body>
+
+</html>

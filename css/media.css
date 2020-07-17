@@ -1,0 +1,75 @@
+@media (min-width: 320px) and (max-width: 375px){
+    .gradient-button{
+        top: 16%;
+    }
+
+    .logo-comp-name{
+        top: 20%;
+    }
+
+    .button-group {
+        top: 15%;
+    }
+
+    .registration .back-text {
+        font-size: 14px;
+        margin-top: 6px;
+        margin-left: 10px;
+        color: #242424;
+        position: absolute;
+        top: 6%;
+        left: 6%;
+    }
+
+    /* Slider page css media */
+
+    .flex .pad-2 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding: 0 22px;
+        color: #9f9f9f;
+
+
+    }
+
+    .flex .pad-1 {
+        font-style: normal;
+        font-size: 25px;
+        text-align: center;
+        padding: 0 10px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-bottom: 10px;
+        color: #787878;
+    }
+
+    .flex p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #787878;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        width: 97%;
+    }
+
+    .flex span {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 1px;
+        padding: 0 32px;
+        color: #9f9f9f;
+    }
+}

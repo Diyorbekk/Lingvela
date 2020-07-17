@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+
+    <!-- Font css link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+
+    <!-- Bootstrap css link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Media screen css link -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Registration</title>
+</head>
+
+<body>
+<div class="registration">
+    <a href="registration.html" class="text-black-50"><i class="fa fa-angle-left back"></i></a>
+    <div class="d-flex align-items-center justify-content-center">
+        <span class="back-text mt-5">Введите телефон или электронний адрес</span>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center">
+        <nav class="d-flex align-items-center">
+            <p>Телефон</p>
+            <p class="active">Адрес эл.почты</p>
+        </nav>
+
+    </div>
+    <form action="">
+        <div class="form-box">
+                <input type="email" class="registration-two-input" id="myform" placeholder="Введите е-mail">
+        </div>
+
+
+        <button class="btn gradient-button" type="button">далее</button>
+    </form>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#myform').click(function () {
+            if ($('#myform') === '') {
+                $('.gradient-button').click(function () {
+                    window.location.href = '#'
+                })
+            } else $('.gradient-button').click(function () {
+                window.location.href = 'registration-three.html'
+            })
+        });
+    })
+</script>
+
+
+</body>
+
+</html>

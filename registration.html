@@ -1,0 +1,2538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=windows-1251">
+
+    <!-- Font css link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+
+    <!-- Bootstrap css link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Media screen css link -->
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <title>Registration</title>
+</head>
+
+<body>
+<div class="registration">
+    <a href="sign-up.html" class="text-black-50"><i class="fa fa-angle-left back"></i></a>
+    <div class="d-flex align-items-center justify-content-center">
+        <span class="back-text mt-5">Введите телефон или электронний адрес</span>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center">
+        <nav class="d-flex align-items-center">
+            <p class="active">Телефон</p>
+            <p>Адрес эл.почты</p>
+        </nav>
+
+    </div>
+    <form>
+        <div class="form-box">
+            <div class="country-phone">
+                <p class="country-code mb-0">UZ +998</p>
+            </div>
+            <input type="tel" id="phoneNumber">
+
+            <div class="country-phone-modal" style="display: none">
+                <div class="d-flex justify-content-center p-3 border-bottom position-relative">
+                    <p class="close-modal mb-0">Отмена</p>
+                    <h6 class="select-country">Выберите страну</h6>
+                </div>
+
+                <span class="all-country-title pl-4 pt-3 pb-1 border-bottom">Все страны</span>
+                <ul>
+                    <li class="pt-4 px-4" id="AF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Afghanistan</p>
+                            <p class="all-country-code">+93</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="Al">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Albania</p>
+                            <p class="all-country-code">+355</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="DZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Algeria</p>
+                            <p class="all-country-code">+213</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">American Samoa</p>
+                            <p class="all-country-code">+1-684</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AD">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Andorra</p>
+                            <p class="all-country-code">+376</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Angola</p>
+                            <p class="all-country-code">+244</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Anguilla</p>
+                            <p class="all-country-code">+1-264</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AQ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Antarctica</p>
+                            <p class="all-country-code">+672</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Antigua and Barbuda</p>
+                            <p class="all-country-code">+1-268</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Argentina</p>
+                            <p class="all-country-code">+54</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Armenia</p>
+                            <p class="all-country-code">+374</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Aruba</p>
+                            <p class="all-country-code">+297</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Australia</p>
+                            <p class="all-country-code">+61</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Austria</p>
+                            <p class="all-country-code">+43</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Azerbaijan</p>
+                            <p class="all-country-code">+994</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bahamas</p>
+                            <p class="all-country-code">+1-242</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bahrain</p>
+                            <p class="all-country-code">+973</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BD">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bangladesh</p>
+                            <p class="all-country-code">+880</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BB">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Barbados</p>
+                            <p class="all-country-code">+1-246</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Belarus</p>
+                            <p class="all-country-code">+375</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Belgium</p>
+                            <p class="all-country-code">+32</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Belize</p>
+                            <p class="all-country-code">+501</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BJ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Benin</p>
+                            <p class="all-country-code">+229</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bermuda</p>
+                            <p class="all-country-code">+1-441</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bhutan</p>
+                            <p class="all-country-code">+975</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bolivia</p>
+                            <p class="all-country-code">+591</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bosnia and Herzegovina</p>
+                            <p class="all-country-code">+387</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Botswana </p>
+                            <p class="all-country-code">+267</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Brazil </p>
+                            <p class="all-country-code">+55</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="VG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">British Virgin Islands</p>
+                            <p class="all-country-code">+1 284</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Brunei</p>
+                            <p class="all-country-code">+673 </p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Bulgaria</p>
+                            <p class="all-country-code">+359 </p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Burkina</p>
+                            <p class="all-country-code">+226 </p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Burma (Myanmar)</p>
+                            <p class="all-country-code">+95</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Burundi</p>
+                            <p class="all-country-code">+257</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cambodia</p>
+                            <p class="all-country-code">+855</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cameroon</p>
+                            <p class="all-country-code">+237</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Canada</p>
+                            <p class="all-country-code">+1</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CV">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cape Verde</p>
+                            <p class="all-country-code">+238</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cayman Islands</p>
+                            <p class="all-country-code">+1 345</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Central African Republic</p>
+                            <p class="all-country-code">+236</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TD">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Chad</p>
+                            <p class="all-country-code">+235</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Chile</p>
+                            <p class="all-country-code">+56</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">China</p>
+                            <p class="all-country-code">+86</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CX">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Christmas Island</p>
+                            <p class="all-country-code">+61</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cocos (Keeling) Islands</p>
+                            <p class="all-country-code">+61</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Colombia</p>
+                            <p class="all-country-code">+57</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Comoros</p>
+                            <p class="all-country-code">+269</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Congo</p>
+                            <p class="all-country-code">+242</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cook Islands</p>
+                            <p class="all-country-code">+682</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Costa Rica</p>
+                            <p class="all-country-code">+506</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="HR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Croatia</p>
+                            <p class="all-country-code">+385</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cuba</p>
+                            <p class="all-country-code">+53</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Cyprus</p>
+                            <p class="all-country-code">+357</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Czech Republic</p>
+                            <p class="all-country-code">+420</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CD">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Democratic Republic of the Congo</p>
+                            <p class="all-country-code">+243</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="DK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Denmark</p>
+                            <p class="all-country-code">+45</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="D">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Diego Garcia</p>
+                            <p class="all-country-code">+246</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="DJ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Djibouti</p>
+                            <p class="all-country-code">+253</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="DM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Dominica</p>
+                            <p class="all-country-code">+1 767</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="DO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Dominican Republic</p>
+                            <p class="all-country-code">+1 809, 1 829, 1 849</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="EC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Ecuador</p>
+                            <p class="all-country-code">+593</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="EG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Egypt</p>
+                            <p class="all-country-code">+20</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SV">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">El Salvador</p>
+                            <p class="all-country-code">+503</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GQ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Equatorial Guinea</p>
+                            <p class="all-country-code">+240</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ER">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Eritrea</p>
+                            <p class="all-country-code">+291</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="EE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Estonia</p>
+                            <p class="all-country-code">+372</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ET">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Ethiopia</p>
+                            <p class="all-country-code">+251</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="FK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Falkland Islands</p>
+                            <p class="all-country-code">+500</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="FO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Faroe Islands</p>
+                            <p class="all-country-code">+298</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="FJ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Fiji</p>
+                            <p class="all-country-code">+679</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="FI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Finland</p>
+                            <p class="all-country-code">+358</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="FR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">France</p>
+                            <p class="all-country-code">+33</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">French Guiana</p>
+                            <p class="all-country-code">+594</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">French Polynesia</p>
+                            <p class="all-country-code">+689</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Gabon</p>
+                            <p class="all-country-code">+241</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Gambia</p>
+                            <p class="all-country-code">+220</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Georgia</p>
+                            <p class="all-country-code">+995</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="DE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Germany</p>
+                            <p class="all-country-code">+49</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Ghana</p>
+                            <p class="all-country-code">+233</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Gibraltar</p>
+                            <p class="all-country-code">+350</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Greece</p>
+                            <p class="all-country-code">+30</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Greenland</p>
+                            <p class="all-country-code">+299</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GD">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Grenada</p>
+                            <p class="all-country-code">+1 473</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GP">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Guadeloupe</p>
+                            <p class="all-country-code">+590</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Guam</p>
+                            <p class="all-country-code">+1 671</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Guatemala</p>
+                            <p class="all-country-code">+502</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Guinea</p>
+                            <p class="all-country-code">+224</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Guinea-Bissau</p>
+                            <p class="all-country-code">+245</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Guyana</p>
+                            <p class="all-country-code">+592</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="HT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Haiti</p>
+                            <p class="all-country-code">+509</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="VA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Holy See (Vatican City)</p>
+                            <p class="all-country-code">+39</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="HN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Honduras</p>
+                            <p class="all-country-code">+504</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="HK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Hong Kong</p>
+                            <p class="all-country-code">+852</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="HU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Hungary</p>
+                            <p class="all-country-code">+36</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Iceland</p>
+                            <p class="all-country-code">+354</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">India</p>
+                            <p class="all-country-code">+91</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ID">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Indonesia</p>
+                            <p class="all-country-code">+62</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Iran</p>
+                            <p class="all-country-code">+98</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IQ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Iraq</p>
+                            <p class="all-country-code">+964</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Ireland</p>
+                            <p class="all-country-code">+353</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Isle of Man</p>
+                            <p class="all-country-code">+44</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Israel</p>
+                            <p class="all-country-code">+972</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="IT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Italy</p>
+                            <p class="all-country-code">+39</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Ivory Coast (Côte d'Ivoire)</p>
+                            <p class="all-country-code">+225</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="JM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Jamaica</p>
+                            <p class="all-country-code">+1 876</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="JP">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Japan</p>
+                            <p class="all-country-code">+81</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="JE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Jersey</p>
+                            <p class="all-country-code">+44</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="JO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Jordan</p>
+                            <p class="all-country-code">+962</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Kazakhstan</p>
+                            <p class="all-country-code">+7</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Kenya</p>
+                            <p class="all-country-code">+254</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Kiribati</p>
+                            <p class="all-country-code">+686</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Kuwait</p>
+                            <p class="all-country-code">+965</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Kyrgyzstan</p>
+                            <p class="all-country-code">+996</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Laos</p>
+                            <p class="all-country-code">+856</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LV">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Latvia</p>
+                            <p class="all-country-code">+371</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LB">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Lebanon</p>
+                            <p class="all-country-code">+961</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Lesotho</p>
+                            <p class="all-country-code">+266</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Liberia</p>
+                            <p class="all-country-code">+231</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Libya</p>
+                            <p class="all-country-code">+218</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Liechtenstein</p>
+                            <p class="all-country-code">+423</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Lithuania</p>
+                            <p class="all-country-code">+370</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Luxembourg</p>
+                            <p class="all-country-code">+352</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Macau</p>
+                            <p class="all-country-code">+853</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Macedonia</p>
+                            <p class="all-country-code">+389</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Madagascar</p>
+                            <p class="all-country-code">+261</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Malawi</p>
+                            <p class="all-country-code">+265</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Malaysia</p>
+                            <p class="all-country-code">+60</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MV">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Maldives </p>
+                            <p class="all-country-code">+960</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ML">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Mali</p>
+                            <p class="all-country-code">+223</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Malta </p>
+                            <p class="all-country-code">+356</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Marshall Islands</p>
+                            <p class="all-country-code">+692</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MQ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Martinique</p>
+                            <p class="all-country-code">+596</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Mauritania</p>
+                            <p class="all-country-code">+222</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Mauritius</p>
+                            <p class="all-country-code">+230</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="YT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Mayotte</p>
+                            <p class="all-country-code">+262</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MX">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Mexico</p>
+                            <p class="all-country-code">+52</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="FM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Micronesia </p>
+                            <p class="all-country-code">+691</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MD">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Moldova</p>
+                            <p class="all-country-code">+373</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Monaco </p>
+                            <p class="all-country-code">+377</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Mongolia</p>
+                            <p class="all-country-code">+976</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ME">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Montenegro</p>
+                            <p class="all-country-code">+382</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Montserrat</p>
+                            <p class="all-country-code">+1 664</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Morocco</p>
+                            <p class="all-country-code">+212</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Mozambique</p>
+                            <p class="all-country-code">+258</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Namibia</p>
+                            <p class="all-country-code">+264</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Nauru</p>
+                            <p class="all-country-code">+674</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NP">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Nepal</p>
+                            <p class="all-country-code">+977</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Netherlands</p>
+                            <p class="all-country-code">+31</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Netherlands Antilles</p>
+                            <p class="all-country-code">+599</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">New Caledonia</p>
+                            <p class="all-country-code">+687</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">New Zealand</p>
+                            <p class="all-country-code">+64</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Nicaragua</p>
+                            <p class="all-country-code">+505</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Niger</p>
+                            <p class="all-country-code">+227</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Nigeria</p>
+                            <p class="all-country-code">+234</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Niue</p>
+                            <p class="all-country-code">+683</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Norfolk Island </p>
+                            <p class="all-country-code">+672</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KP">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">North Korea</p>
+                            <p class="all-country-code">+850</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MP">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Northern Mariana Islands</p>
+                            <p class="all-country-code">+1 670</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="NO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Norway </p>
+                            <p class="all-country-code">+47</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="OM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Oman</p>
+                            <p class="all-country-code">+968</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Pakistan</p>
+                            <p class="all-country-code">+92</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Palau</p>
+                            <p class="all-country-code">+680</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Palestine</p>
+                            <p class="all-country-code">+970</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Panama</p>
+                            <p class="all-country-code">+507</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Papua New Guinea </p>
+                            <p class="all-country-code">+675</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Paraguay </p>
+                            <p class="all-country-code">+595</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Peru</p>
+                            <p class="all-country-code">+51</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Philippines</p>
+                            <p class="all-country-code">+63</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Pitcairn Islands</p>
+                            <p class="all-country-code">+870</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Poland</p>
+                            <p class="all-country-code">+48</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Portugal </p>
+                            <p class="all-country-code">+351</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Puerto Rico</p>
+                            <p class="all-country-code">+1 787, 1 939</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="QA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Qatar</p>
+                            <p class="all-country-code">+974</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="COG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Republic of the Congo</p>
+                            <p class="all-country-code">+242</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="RE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Reunion Island</p>
+                            <p class="all-country-code">+262</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="RO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Romania</p>
+                            <p class="all-country-code">+40</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="RU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Russia</p>
+                            <p class="all-country-code">+7</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="RW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Rwanda</p>
+                            <p class="all-country-code">+250</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="BL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saint Barthelemy </p>
+                            <p class="all-country-code">+590</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saint Helena </p>
+                            <p class="all-country-code">+290</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saint Kitts and Nevis</p>
+                            <p class="all-country-code">+1 869</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saint Lucia</p>
+                            <p class="all-country-code">+1 758</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="MF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saint Martin</p>
+                            <p class="all-country-code">+590</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="PM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saint Pierre and Miquelon</p>
+                            <p class="all-country-code">+508</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="VC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saint Vincent and the Grenadines</p>
+                            <p class="all-country-code">+1 784</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="WS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Samoa</p>
+                            <p class="all-country-code">+685</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">San Marino</p>
+                            <p class="all-country-code">+378</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ST">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Sao Tome and Principe</p>
+                            <p class="all-country-code">+239</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Saudi Arabia</p>
+                            <p class="all-country-code">+966</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Senegal</p>
+                            <p class="all-country-code">+221</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="RS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Serbia </p>
+                            <p class="all-country-code">+381</p>
+                        </div>
+                    </li>
+
+                    <li class="pt-4 px-4" id="SC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Seychelles</p>
+                            <p class="all-country-code">+248</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Sierra Leone</p>
+                            <p class="all-country-code">+232</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Singapore</p>
+                            <p class="all-country-code">+65</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SX">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Sint Maarten</p>
+                            <p class="all-country-code">+1 721</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Slovakia</p>
+                            <p class="all-country-code">+421</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Slovenia</p>
+                            <p class="all-country-code">+386</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SB">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Solomon Islands</p>
+                            <p class="all-country-code">+677</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Somalia</p>
+                            <p class="all-country-code">+252</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ZA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">South Africa</p>
+                            <p class="all-country-code">+27</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="KR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">South Korea</p>
+                            <p class="all-country-code">+82</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SS">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">South Sudan</p>
+                            <p class="all-country-code">+211</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ES">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Spain</p>
+                            <p class="all-country-code">+34</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="LK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Sri Lanka</p>
+                            <p class="all-country-code">+94</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SD">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Sudan</p>
+                            <p class="all-country-code">+249</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Suriname</p>
+                            <p class="all-country-code">+597</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SJ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Svalbard </p>
+                            <p class="all-country-code">+47</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Swaziland</p>
+                            <p class="all-country-code">+268</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Sweden</p>
+                            <p class="all-country-code">+46</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="CH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Switzerland</p>
+                            <p class="all-country-code">+41</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="SY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Syria </p>
+                            <p class="all-country-code">+963</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Taiwan</p>
+                            <p class="all-country-code">+886</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TJ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Tajikistan</p>
+                            <p class="all-country-code">+992</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Tanzania</p>
+                            <p class="all-country-code">+255</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Thailand </p>
+                            <p class="all-country-code">+66</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TL">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Timor-Leste (East Timor)</p>
+                            <p class="all-country-code">+670</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Togo</p>
+                            <p class="all-country-code">+228</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TK">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Tokelau</p>
+                            <p class="all-country-code">+690</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TO">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Tonga Islands</p>
+                            <p class="all-country-code">+676</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TT">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Trinidad and Tobago</p>
+                            <p class="all-country-code">+1 868</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Tunisia</p>
+                            <p class="all-country-code">+216</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TR">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Turkey </p>
+                            <p class="all-country-code">+90</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Turkmenistan</p>
+                            <p class="all-country-code">+993</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TC">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Turks and Caicos Islands</p>
+                            <p class="all-country-code">+1 649</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="TV">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Tuvalu</p>
+                            <p class="all-country-code">+688</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="UG">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Uganda</p>
+                            <p class="all-country-code">+256</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="UA">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Ukraine</p>
+                            <p class="all-country-code">+380</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="AE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">United Arab Emirates</p>
+                            <p class="all-country-code">+971</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="GB">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">United Kingdom</p>
+                            <p class="all-country-code">+44</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="US">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">United States</p>
+                            <p class="all-country-code">+1</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="UY">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Uruguay</p>
+                            <p class="all-country-code">+598</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="VI">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">US Virgin Islands</p>
+                            <p class="all-country-code">+1 340</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="UZ">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Uzbekistan</p>
+                            <p class="all-country-code">+998</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="VU">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Vanuatu</p>
+                            <p class="all-country-code">+678</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="VE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Venezuela</p>
+                            <p class="all-country-code">+58</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="VN">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Vietnam</p>
+                            <p class="all-country-code">+84</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="WF">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Wallis and Futuna</p>
+                            <p class="all-country-code">+681</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="EH">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Western Sahara</p>
+                            <p class="all-country-code">+212</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="YE">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Yemen</p>
+                            <p class="all-country-code">+967</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ZM">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Zambia</p>
+                            <p class="all-country-code">+260</p>
+                        </div>
+                    </li>
+                    <li class="pt-4 px-4" id="ZW">
+                        <div class="d-flex align-items-center justify-content-between border-bottom pb-2">
+                            <p class="all-country-text">Zimbabwe</p>
+                            <p class="all-country-code">+263</p>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <button class="btn gradient-button" type="button">далее</button>
+    </form>
+
+</div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+<script>
+    // onclick="window.location.href=''
+    $(document).ready(function () {
+        $('#phoneNumber').click(function () {
+            if ($('#phoneNumber') === '') {
+                $('.gradient-button').click(function () {
+                    window.location.href = '#'
+                })
+            } else $('.gradient-button').click(function () {
+                window.location.href = 'registration-two.html'
+            })
+        });
+    })
+    $('.country-phone').click(function () {
+        $('.country-phone-modal').css('display', 'block')
+    })
+    $('.close-modal').click(function () {
+        $('.country-phone-modal').css('display', 'none')
+    })
+    $('#AF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AF +93</p>');
+    });
+    $('#Al').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">Al +355</p>');
+    });
+    $('#DZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">Al +213</p>');
+    });
+    $('#AS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AS +1-68</p>');
+    });
+
+    $('#AD').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AD +376</p>');
+    });
+    $('#AO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AD +244</p>');
+    });
+    $('#AI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AD +1-264</p>');
+    });
+    $('#AQ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AQ +672</p>');
+    });
+    $('#AG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AD +1-268</p>');
+    });
+    $('#AR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AR +54</p>');
+    });
+    $('#AM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AM +374</p>');
+    });
+    $('#AW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AW +297</p>');
+    });
+    $('#AU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AU +61</p>');
+    });
+    $('#AT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AT +43</p>');
+    });
+    $('#AZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AZ +994</p>');
+    });
+    $('#BH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BH +973</p>');
+    });
+    $('#BD').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BD +880</p>');
+    });
+    $('#BB').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BB +1-246</p>');
+    });
+    $('#BY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BY +375</p>');
+    });
+    $('#BE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BE +32</p>');
+    });
+    $('#BZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BZ +501</p>');
+    });
+    $('#BJ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BJ +229</p>');
+    });
+    $('#BM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BM +1-441</p>');
+    });
+    $('#BT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BT +975</p>');
+    });
+
+    $('#BO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BO +591</p>');
+    });
+
+    $('#BA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BA +387</p>');
+    });
+
+    $('#BW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BW +267</p>');
+    });
+
+    $('#BR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BR +55</p>');
+    });
+
+    $('#VG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">VG +1 284</p>');
+    });
+
+    $('#BN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BN +673</p>');
+    });
+
+    $('#BG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BG +359</p>');
+    });
+
+    $('#BF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BF +226</p>');
+    });
+
+    $('#MM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MM +95</p>');
+    });
+
+    $('#BI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BI +257</p>');
+    });
+
+    $('#KH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KH +855</p>');
+    });
+
+    $('#CM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CM +237</p>');
+    });
+
+    $('#CA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CA +1</p>');
+    });
+
+    $('#CV').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CV +238</p>');
+    });
+
+    $('#KY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KY +1 345</p>');
+    });
+    $('#CF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CF +236</p>');
+    });
+    $('#TD').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TD +235</p>');
+    });
+    $('#CL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CL +56</p>');
+    });
+    $('#CN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CN +86</p>');
+    });
+    $('#CX').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CX +61</p>');
+    });
+    $('#CC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CC +61</p>');
+    });
+    $('#CO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CO +57</p>');
+    });
+    $('#KM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KM +269</p>');
+    });
+    $('#CG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CG +242</p>');
+    });
+    $('#CK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CK +682</p>');
+    });
+    $('#CR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CR +506</p>');
+    });
+    $('#HR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">HR +385</p>');
+    });
+    $('#CU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CU +53</p>');
+    });
+    $('#CY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CY +357</p>');
+    });
+    $('#CZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CZ +420</p>');
+    });
+    $('#CD').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CD +243</p>');
+    });
+    $('#DK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">DK +45</p>');
+    });
+    $('#D').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">D +246</p>');
+    });
+    $('#DJ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">DJ +253</p>');
+    });
+    $('#DM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">DM +1 767</p>');
+    });
+
+    $('#DO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">DO +1 809, 1 829, 1 849 </p>');
+    });
+    $('#EC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">EC +593</p>');
+    });
+    $('#EG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">EG +20</p>');
+    });
+    $('#SV').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SV +503</p>');
+    });
+    $('#GQ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GQ +240</p>');
+    });
+    $('#ER').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ER +291</p>');
+    });
+    $('#EE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">EE +372</p>');
+    });
+    $('#ET').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ET +251</p>');
+    });
+    $('#FK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">FK +500</p>');
+    });
+    $('#FO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">FO +298</p>');
+    });
+    $('#FJ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">FJ +679</p>');
+    });
+    $('#FI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">FI +358</p>');
+    });
+    $('#FR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">FR +33</p>');
+    });
+    $('#GF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GF +594</p>');
+    });
+    $('#PF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PF +689</p>');
+    });
+    $('#GA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GA +241</p>');
+    });
+    $('#GM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GM +220</p>');
+    });
+    $('#GE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GE +995</p>');
+    });
+    $('#DE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">DE +49</p>');
+    });
+    $('#GH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GH +233</p>');
+    });
+    $('#GI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GI +350</p>');
+    });
+    $('#GR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GR +30</p>');
+    });
+    $('#GL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GL +299</p>');
+    });
+    $('#GD').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GD +1 473</p>');
+    });
+    $('#GP').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GP +590</p>');
+    });
+    $('#GU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GU +1 671</p>');
+    });
+    $('#GT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GT +502</p>');
+    });
+    $('#GN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GN +224</p>');
+    });
+    $('#GW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GW +245</p>');
+    });
+    $('#GY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GY +592</p>');
+    });
+    $('#HT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">HT +509</p>');
+    });
+    $('#VA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">VA +39</p>');
+    });
+    $('#HN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">HN +504</p>');
+    });
+    $('#HK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">HK +852</p>');
+    });
+    $('#HU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">HU +36</p>');
+    });
+    $('#IS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IS +354</p>');
+    });
+    $('#IN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IN +91</p>');
+    });
+    $('#ID').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ID +62</p>');
+    });
+    $('#IR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IR +98</p>');
+    });
+    $('#IQ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IQ +964</p>');
+    });
+    $('#IE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IE +353</p>');
+    });
+    $('#IM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IM +44</p>');
+    });
+    $('#IL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IL +972</p>');
+    });
+    $('#IT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">IT +39</p>');
+    });
+    $('#CI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CI +225</p>');
+    });
+    $('#JM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">JM +1 876</p>');
+    });
+    $('#JP').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">JP +81</p>');
+    });
+    $('#JE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">JE +44</p>');
+    });
+    $('#JO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">JO +962</p>');
+    });
+    $('#KZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KZ +7</p>');
+    });
+
+    $('#KE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KE +254</p>');
+    });
+    $('#KI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KI +686</p>');
+    });
+    $('#KW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KW +965</p>');
+    });
+    $('#KG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KG +996</p>');
+    });
+    $('#LA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LA +856</p>');
+    });
+    $('#LV').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LV +371</p>');
+    });
+    $('#LB').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LB +961</p>');
+    });
+    $('#LS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LS +266</p>');
+    });
+    $('#LR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LR +231</p>');
+    });
+    $('#LY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LY +218</p>');
+    });
+    $('#LI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LI +423</p>');
+    });
+    $('#LT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LT +370</p>');
+    });
+    $('#LU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LU +352</p>');
+    });
+    $('#MO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MO +853</p>');
+    });
+    $('#MK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MK +389</p>');
+    });
+    $('#MG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MG +261</p>');
+    });
+    $('#MW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MW +265</p>');
+    });
+    $('#MY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MY +60</p>');
+    });
+    $('#MV').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MV +960</p>');
+    });
+    $('#ML').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ML +223</p>');
+    });
+    $('#MT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MT +356</p>');
+    });
+    $('#MH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MH +692</p>');
+    });
+    $('#MQ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MQ +596</p>');
+    });
+    $('#MR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MR +222</p>');
+    });
+    $('#MU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MU +230</p>');
+    });
+    $('#YT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">YT +262</p>');
+    });
+    $('#MX').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MX +52</p>');
+    });
+    $('#FM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">FM +691</p>');
+    });
+    $('#MD').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MD +373</p>');
+    });
+    $('#MC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MC +377</p>');
+    });
+    $('#MN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MN +976</p>');
+    });
+    $('#ME').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ME +382</p>');
+    });
+    $('#MS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MS +1 664</p>');
+    });
+    $('#MA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MA +212</p>');
+    });
+    $('#MZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MZ +258</p>');
+    });
+    $('#NA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NA +264</p>');
+    });
+    $('#NR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NR +674</p>');
+    });
+    $('#NP').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NP +977</p>');
+    });
+    $('#NL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NL +31</p>');
+    });
+    $('#AN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AN +599</p>');
+    });
+    $('#NC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NC +687</p>');
+    });
+    $('#NZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NZ +64</p>');
+    });
+    $('#NI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NI +505</p>');
+    });
+    $('#NE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NE +227</p>');
+    });
+    $('#NG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NG +234</p>');
+    });
+    $('#NU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NU +683</p>');
+    });
+    $('#NF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NF +672</p>');
+    });
+    $('#KP').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KP +850</p>');
+    });
+    $('#MP').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MP +1 670</p>');
+    });
+    $('#NO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">NO +47</p>');
+    });
+    $('#OM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">OM +968</p>');
+    });
+    $('#PK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PK +92</p>');
+    });
+    $('#PW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PW +680</p>');
+    });
+    $('#PS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PS +970</p>');
+    });
+    $('#PA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PA +507</p>');
+    });
+    $('#PG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PG +675</p>');
+    });
+    $('#PY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PY +595</p>');
+    });
+    $('#PE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PE +51</p>');
+    });
+    $('#PH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PH +63</p>');
+    });
+    $('#PN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PN +870</p>');
+    });
+    $('#PL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PL +48</p>');
+    });
+    $('#PT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PT +351</p>');
+    });
+    $('#PR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PR +1 787, 1 939</p>');
+    });
+    $('#QA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">QA +974</p>');
+    });
+    $('#COG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CG +242</p>');
+    });
+    $('#RE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">RE +262</p>');
+    });
+    $('#RO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">RO +40</p>');
+    });
+    $('#RU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">RU +7</p>');
+    });
+    $('#RW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">RW +250</p>');
+    });
+    $('#BL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">BL +590</p>');
+    });
+    $('#SH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SH +290</p>');
+    });
+    $('#KN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KN +1 869</p>');
+    });
+    $('#LC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LC +1 758</p>');
+    });
+    $('#MF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">MF +590</p>');
+    });
+    $('#PM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">PM +508</p>');
+    });
+    $('#VC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">VC +1 784</p>');
+    });
+    $('#WS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">WS +685</p>');
+    });
+    $('#SM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SM +378</p>');
+    });
+    $('#ST').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ST +239</p>');
+    });
+    $('#SA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SA +966</p>');
+    });
+    $('#SN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SN +221</p>');
+    });
+    $('#RS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">RS +381</p>');
+    });
+
+    $('#SC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SC +248</p>');
+    });
+    $('#SL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SL +232</p>');
+    });
+    $('#SG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SG +65</p>');
+    });
+    $('#SX').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SX +1 721</p>');
+    });
+    $('#SK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SK +421</p>');
+    });
+    $('#SI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SI +386</p>');
+    });
+    $('#SB').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SB +677</p>');
+    });
+    $('#SO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SO +252</p>');
+    });
+    $('#ZA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ZA +27</p>');
+    });
+    $('#KR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">KR +82</p>');
+    });
+    $('#SS').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SS +211</p>');
+    });
+    $('#ES').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ES +34</p>');
+    });
+    $('#LK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">LK +94</p>');
+    });
+    $('#SD').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SD +249</p>');
+    });
+    $('#SR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SR +597</p>');
+    });
+    $('#SJ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SJ +47</p>');
+    });
+    $('#SZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SZ +268</p>');
+    });
+    $('#SE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SE +46</p>');
+    });
+    $('#CH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">CH +41</p>');
+    });
+    $('#SY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">SY +963</p>');
+    });
+    $('#TW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TW +886</p>');
+    });
+    $('#TJ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TJ +992</p>');
+    });
+    $('#TZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TZ +255</p>');
+    });
+    $('#TH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TH +66</p>');
+    });
+    $('#TL').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TL +670</p>');
+    });
+    $('#TG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TG +228</p>');
+    });
+    $('#TK').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TK +690</p>');
+    });
+    $('#TO').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TO +676</p>');
+    });
+    $('#TT').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TT +1 868</p>');
+    });
+    $('#TN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TN +216</p>');
+    });
+    $('#TR').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TR +90</p>');
+    });
+    $('#TM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TM +993</p>');
+    });
+    $('#TC').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TC +1 649</p>');
+    });
+    $('#TV').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">TV +688</p>');
+    });
+    $('#UG').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">UG +256</p>');
+    });
+    $('#UA').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">UA +380</p>');
+    });
+    $('#AE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">AE +971</p>');
+    });
+    $('#GB').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">GB +44</p>');
+    });
+    $('#US').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">US +1</p>');
+    });
+    $('#UY').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">UY +598</p>');
+    });
+    $('#VI').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">VI +1 340</p>');
+    });
+    $('#UZ').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">UZ +998</p>');
+    });
+    $('#VU').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">VU +678</p>');
+    });
+    $('#VE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">VE +58</p>');
+    });
+    $('#VN').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">VN +84</p>');
+    });
+    $('#WF').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">WF +681</p>');
+    });
+    $('#EH').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">EH +212</p>');
+    });
+    $('#YE').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">YE +967</p>');
+    });
+    $('#ZM').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ZM +260</p>');
+    });
+    $('#ZW').on('click', function () {
+        $('.country-phone-modal').css('display', 'none')
+        $(".country-code").replaceWith('<p class="country-code mb-0">ZW +263</p>');
+    });
+
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lingvela.iml" filepath="$PROJECT_DIR$/.idea/Lingvela.iml" />
+      <module fileurl="file://file:C:/Users//C:/Users/User/Desktop/Lingvela/.idea/Lingvela.iml" filepath="file:$PROJECT_DIR$/../../..//C:/Users/User/Desktop/Lingvela/.idea/Lingvela.iml" />
+    </modules>
+  </component>
+</project>
