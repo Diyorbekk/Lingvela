@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Способ оплаты</title>
+</head>
+
+<body class="payment-method">
+
+<header class="payment-method-header">
+    <div class="pay-header w-100 position-relative">
+        <i class="fa fa-angle-left back"></i>
+
+        <p class="text-18 mb-0">Способ оплаты</p>
+    </div>
+
+    <form>
+        <ul>
+            <li>
+                <input type="radio" id="f-option" name="selector">
+                <label for="f-option">
+                    <img src="images/Visa_2014_logo_detail.svg.png" class="mar_ri">
+                    <img src="images/masterCard.png" class="mar_bot ml-3 mb-0">
+                </label>
+
+                <div class="check"></div>
+            </li>
+
+            <li>
+                <input type="radio" id="s-option" name="selector">
+                <label for="s-option" class="a-center">
+                    <img src="images/logo_uzcard%201.png" class="mar_ri w-100 h-auto">
+                    <img src="images/humo.png" class="mar_bot ml-3 mb-0 w-100 h-auto">
+                </label>
+
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+
+            <li>
+                <input type="radio" id="t-option" name="selector">
+                <label for="t-option" class="a-center">
+                    <img src="images/google-play-smaller-better-instant.jpg" width="230" height="130">
+                </label>
+
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+
+            <li>
+                <input type="radio" id="b-option" name="selector">
+                <label for="b-option" class="a-center">
+                    <img src="images/click.png" class="mar_ri w-100 h-auto">
+                    <img src="images/payme.png" class="mar_bot ml-3 mb-0 w-100 h-auto">
+                </label>
+
+                <div class="check">
+                    <div class="inside"></div>
+                </div>
+            </li>
+        </ul>
+
+
+
+
+
+    </form>
+
+    <div class="d-flex flex-column align-items-center bottomNext">
+        <button type="button" onclick="window.location.href='../pages/Оплатить.html'">далее</button>
+        <p>Ваша платежная информация защищена надежно</p>
+    </div>
+</header>
+
+
+</body>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</html>

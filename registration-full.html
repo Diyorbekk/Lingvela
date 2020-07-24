@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>registration-full</title>
+
+
+</head>
+
+<body class="registration-full">
+    <header>
+
+        <i class="fa fa-angle-left back" onclick="location.href='registration.html'"></i>
+        <form>
+
+            <div class="form_column">
+                <label for="Имя">Имя</label>
+                <input type="text" id="Имя">
+            </div>
+
+            <div class="form_column">
+                <label for="Фамилия">Фамилия</label>
+                <input type="text" id="Фамилия">
+                <p id="p2"></p>
+            </div>
+
+            <div class="form_column">
+                <label for="рождения">Дата рождения</label>
+                <div class="form_flex_1 form_flex">
+                    <input type="text" class="w-100" id="рождения" data-mask="00/00/0000"/>
+                </div>
+            </div>
+
+
+            <div class="form_column">
+                <label>Укажите пол</label>
+                <div class="form_flex_3 form_flex">
+                    <ul>
+                        <li>
+                            <input id="Мужской" type="radio" name="field" value="option">
+                            <label for="Мужской">Мужской</label>
+                            <div class="check"></div>
+                        </li>
+
+                        <li>
+                            <input id="Женский" type="radio" name="field" value="option">
+                            <label for="Женский">Женский</label>
+                            <div class="check"></div>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+            <div class="form_column">
+                <label>Укажите род деятелности</label>
+                <select name="" id="">
+                    <option value="">Агент</option>
+                    <option value="">Админстратор</option>
+                    <option value="">Актёр</option>
+                    <option value="">Архитектор</option>
+                    <option value="">Бизнесмен</option>
+                    <option value="">Блогер</option>
+                    <option value="">Брокер</option>
+                    <option value="">Водитель</option>
+                    <option value="">Военный</option>
+                    <option value="">Госслужащий</option>
+                    <option value="">Дизайнер</option>
+                    <option value="">Доктор</option>
+                    <option value="">Инвестор</option>
+                    <option value="">Инженер</option>
+                    <option value="">IT-специалист</option>
+                    <option value="">Маркетолог</option>
+                    <option value="">Мастер</option>
+                    <option value="">Модель</option>
+                    <option value="">Музыкант</option>
+                    <option value="">Наставник</option>
+                    <option value="">Оператор</option>
+                    <option value="">Официант</option>
+                    <option value="">Писатель</option>
+                    <option value="">Предприниматель</option>
+                    <option value="">Продюсер</option>
+                    <option value="">Работник</option>
+                    <option value="">Спортсмен</option>
+                    <option value="">Стилист</option>
+                    <option value="">Студент</option>
+                    <option value="">Учитель</option>
+                    <option value="">Финансист</option>
+                    <option value="">Фотограф</option>
+                    <option value="">Фрилансер</option>
+                    <option value="">Художник</option>
+                    <option value="">Экономист</option>
+                    <option value="">Шоумен</option>
+                    <option value="">Нигде не работаю и не учусь</option>
+                    <option value="">Другое</option>
+                </select>
+            </div>
+
+
+            <div class="form_column">
+                <label>Когда у вас будет свободное время?</label>
+                <div class="form_flex_1 form_flex">
+                    <input type="number" id="time"  data-mask="00:00" placeholder="--:--">
+                    <input type="number" id="time2" data-mask="00:00" class="marginL" placeholder="--:--">
+                    <input type="number" id="time3" data-mask="00:00" class="marginL" placeholder="--:--">
+                </div>
+            </div>
+
+
+            <button type="button"  onclick="window.location.href='about-the-app.html'">далее</button>
+        </form>
+    </header>
+
+
+</body>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+<script  src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+
+<script src="js/sinon-1.10.3.js"></script>
+<script src="js/sinon-qunit-1.0.0.js"></script>
+
+<script src="js/jquery.mask.js"></script>
+<script src="js/jquery.mask.test.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $('#рождения').mask("00/00/0000", {placeholder: "день/месяц/год"});
+
+
+        $('#рождения').click(function() {
+            var b = $(this).attr('type','data');
+        })
+        $('#time').hover(function() {
+            var b = $(this).attr('type','time');
+        })
+        $('#time2').hover(function() {
+            var b = $(this).attr('type','time');
+        })
+        $('#time3').hover(function() {
+            var b = $(this).attr('type','time');
+        })
+    })
+
+
+</script>
+
+</html>

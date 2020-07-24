@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>О методике</title>
+</head>
+
+<body class="about-the-app">
+<header class="about-the-app-header">
+    <h2>О приложении</h2>
+    <div class="d-flex position-relative">
+        <video class="rounded" src="images/back-poster.png" poster="images/back-poster.png" controls width="100%"
+               style="margin-top: 20px;"></video>
+        <div class="position-absolute d-flex w-100 h-100 align-items-center justify-content-center">
+            <img src="images/bx_bx-play-circle.png" alt="png">
+        </div>
+    </div>
+    <h3>Видеопрезентация</h3>
+</header>
+<main class="about-the-app-main mt-5">
+    <div class="about-the-app-price-box about-the-app-price-box-1 active position-relative">
+        <div class="d-flex align-items-center flex-column bg-linear-dark-blue rounded-10">
+            <div class="d-flex align-items-start justify-content-center text-center pt-4">
+                <p class="text-36 font-weight-light mb-0 mt-3">3.9 USD </p>
+                <p class="text-18 font-weight-light mb-0 mt-3"> /месяц</p>
+            </div>
+
+            <p class="font-weight-light mb-4">Ежегодная подписка</p>
+
+        </div>
+        <div class="position-absolute bg-dark-yellow eco-block rounded-5">
+            <p class="mb-0 px-3 text-body">Экономия 60%</p>
+        </div>
+    </div>
+
+    <div class="about-the-app-price-box about-the-app-price-box-2 position-relative mt-4">
+        <div class="d-flex align-items-center flex-column rounded-10">
+            <div class="d-flex align-items-start justify-content-center text-center pt-4">
+                <p class="text-36 font-weight-light mb-0 mt-3">9.9 USD </p>
+                <p class="text-18 font-weight-light mb-0 mt-3"> /месяц</p>
+            </div>
+
+            <p class="font-weight-light mb-4">Ежемесячная подписка</p>
+
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <button id="myId" class="btn-animation">Оформить подписку</button>
+    </div>
+
+</main>
+</body>
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    $('.about-the-app-price-box-1').on('click', function () {
+        $('.about-the-app-price-box-2').removeClass('active')
+        $('.about-the-app-price-box-1').addClass('active')
+        $('.about-the-app-price-box-1 .rounded-10').addClass('bg-linear-dark-blue')
+        $('.about-the-app-price-box-2 .rounded-10').removeClass('bg-linear-dark-blue')
+    })
+    $('.about-the-app-price-box-2').on('click', function () {
+        $('.about-the-app-price-box-1').removeClass('active')
+        $('.about-the-app-price-box-2').addClass('active')
+        $('.about-the-app-price-box-2 .rounded-10').addClass('bg-linear-dark-blue')
+        $('.about-the-app-price-box-1 .rounded-10').removeClass('bg-linear-dark-blue')
+    })
+</script>
+</html>

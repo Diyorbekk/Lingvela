@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ae85432-79bf-4ddd-8030-e33cd9d7b6c0" name="Default Changelist" comment="" />
+    <list default="true" id="6ae85432-79bf-4ddd-8030-e33cd9d7b6c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about-the-app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Box_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Group 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Layer_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Lingbox Ava.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Logoback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Visa_2014_logo_detail.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/back (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/back-poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/backs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bx_bx-play-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/card-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/click-full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/click.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coggg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/emojione_flag-for-triangular-flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/facebook logo png transparent background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ffff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/google-play-smaller-better-instant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/humo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ikonka warning 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo 1 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo-mir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo_uzcard 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/masterCard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/new-instagram-logo-png-transparent-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pay.svg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/payme-full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/payme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/play icon_Монтажная область 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/unnamed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/uzbekistan-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/youtube-logo-red-hd-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Лого-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/домик.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/колокол.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/утюг.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/чел.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/шестеренка.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-method-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-method.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registration-full.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/плей.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/плей.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-four.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration-four.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +75,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dlhyvH72jZkwAVIlwG76ladgqe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,6 +87,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
@@ -33,10 +96,21 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Lingvela\images" />
+      <recent name="." />
+      <recent name="C:\Users\User\Desktop\Lingvela" />
       <recent name="\\WIN-LHMSBEDLSNE\Shared Folder\Lingvela\images" />
       <recent name="\\WIN-LHMSBEDLSNE\Shared Folder\Lingvela\js" />
-      <recent name="\\WIN-LHMSBEDLSNE\Shared Folder\Lingvela\css" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pay.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Lingvela/pay.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.pay.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,6 +127,7 @@
       <workItem from="1593074108755" duration="2000" />
       <workItem from="1593074127758" duration="825000" />
       <workItem from="1593076714040" duration="19003000" />
+      <workItem from="1595581971039" duration="15964000" />
     </task>
     <servers />
   </component>
@@ -60,13 +135,88 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="330" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595598465816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595598465816" />
+    <state width="914" height="347" key="GridCell.Tab.0.bottom" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.0.center" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782982" />
+    <state width="914" height="347" key="GridCell.Tab.0.left" timestamp="1595601782982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782982" />
+    <state width="914" height="347" key="GridCell.Tab.0.right" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.1.center" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.1.left" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.1.right" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.2.bottom" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.2.center" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.2.left" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state width="914" height="347" key="GridCell.Tab.2.right" timestamp="1595601782983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="347" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595601782983" />
+    <state x="540" y="255" key="IDE.errors.dialog" timestamp="1595599348038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595599348038" />
     <state x="602" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593149354127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="602" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593149354127" />
-    <state x="750" y="242" width="736" height="606" key="find.popup" timestamp="1593148158147">
+    <state x="41" y="259" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595598894829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="242" width="736" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593148158147" />
+    <state x="41" y="259" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1595598894829" />
+    <state x="754" y="236" width="737" height="606" key="find.popup" timestamp="1595585522803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="236" width="737" height="606" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595585522803" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1595585508693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595585508693" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1595583983458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595583983458" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595596694368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595596694368" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lingvela$pay_html.dat" NAME="pay.html Coverage Results" MODIFIED="1595598691909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

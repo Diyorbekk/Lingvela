@@ -424,7 +424,7 @@ body {
     transform: translateY(-10px);
 }
 
-.modal-for-blur .gradient-button{
+.modal-for-blur .gradient-button {
     top: -30%;
 }
 
@@ -450,7 +450,7 @@ body {
 
 /* Slider Page css start */
 
-.slider-body{
+.slider-body {
     background: white;
     font-size: 14px;
     color: #000;
@@ -473,7 +473,7 @@ body {
     z-index: 10;
 }
 
-.start-box{
+.start-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,7 +481,7 @@ body {
     z-index: 10;
 }
 
-.start-box-shadow{
+.start-box-shadow {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -493,7 +493,7 @@ body {
     background-position: center;
 }
 
-.start-box-shadow-box{
+.start-box-shadow-box {
     display: flex;
     border-radius: 50%;
     width: 155px;
@@ -508,18 +508,18 @@ body {
     border: none;
 }
 
-.start-box-shadow-box:focus{
+.start-box-shadow-box:focus {
     box-shadow: unset;
     outline: unset;
 }
 
-.slider-icon-img{
+.slider-icon-img {
     width: 45px;
     height: 40px;
     margin-right: 34px;
 }
 
-.slider-icon-img-text{
+.slider-icon-img-text {
     color: #5C5C5C;
     font-size: 16px;
     line-height: 19px;
@@ -629,7 +629,678 @@ body {
     overflow: hidden;
 }
 
+.registration-full header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    overflow-x: hidden;
+}
 
+.registration-full header .back {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    outline-color: transparent;
+    top: 1%;
+    left: 8%;
+    font-size: 30px;
+    color: #C4C4C4;
+}
+
+.registration-full form {
+    width: 100%;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-full .form_column {
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    margin-top: 20px;
+}
+
+.registration-full .form_column input {
+    width: 100%;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5px;
+    outline: #4400FF;
+}
+
+.registration-full label {
+    color: #B6B6B6;
+    font-size: 13px;
+}
+
+.registration-full .form_column input::placeholder {
+    color: #B6B6B6;
+    font-size: 13px;
+    text-align: left;
+}
+
+.registration-full .form_column select {
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    outline: #4400FF;
+}
+
+.registration-full .form_flex {
+    display: flex;
+}
+
+.registration-full .form_flex_1 input {
+    width: 100%;
+    height: 35px;
+    text-align: left;
+}
+
+.registration-full input::placeholder {
+    text-align: left;
+}
+
+.registration-full .marginL {
+    margin-left: 10px;
+}
+
+.registration-full .form_flex_2 input {
+    width: 50%;
+    height: 35px;
+}
+
+.registration-full .form_flex_3 ul {
+    display: flex;
+}
+
+.registration-full .form_flex_3 ul li {
+    color: #AAAAAA;
+    display: block;
+    position: relative;
+    margin-right: 45px;
+    float: left;
+    width: 60px;
+    height: 15px;
+}
+
+.registration-full .form_flex_3 ul li input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.registration-full .form_flex_3 ul li label {
+    display: block;
+    position: relative;
+    font-weight: 300;
+    font-size: 13px;
+    padding-left: 34px;
+    margin: 17px 0 18px 0;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.registration-full .form_flex_3 ul li .check {
+    display: block;
+    position: absolute;
+    border: 1px solid #0075FF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    top: 14px;
+    left: 0;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
+}
+
+.registration-full .form_flex_3 .check::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+}
+
+.registration-full .form_flex_3 [type=radio]:checked ~ .check {
+    border: 1px solid #0075FF;
+}
+
+.registration-full .form_flex_3 [type=radio]:checked ~ .check::before {
+    background: #0075FF;
+}
+
+.registration-full .form_flex_3 [type=radio]:checked ~ label {
+    color: #0075FF;
+}
+
+.registration-full .form_flex_4 ul {
+    display: flex;
+}
+
+.registration-full .form_flex_4 ul li {
+    color: #AAAAAA;
+    display: block;
+    position: relative;
+    margin-right: 25px;
+    float: left;
+    height: 15px;
+}
+
+.registration-full .form_flex_4 ul li input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.registration-full .mt-5 {
+    margin-top: 15px;
+}
+
+.registration-full .mt-6 {
+    margin-top: 20px;
+}
+
+.registration-full .form_flex_4 ul li label {
+    display: block;
+    position: relative;
+    font-weight: 300;
+    font-size: 13px;
+    padding-left: 34px;
+    margin: 17px 0 18px 0;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.registration-full .form_flex_4 ul li .check {
+    display: block;
+    position: absolute;
+    border: 1px solid #0075FF;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    top: 14px;
+    left: 0;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
+}
+
+.registration-full .form_flex_4 .check::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+}
+
+.registration-full .form_flex_4 [type=radio]:checked ~ .check {
+    border: 1px solid #0075FF;
+}
+
+.registration-full .form_flex_4 [type=radio]:checked ~ .check::before {
+    background: #0075FF;
+}
+
+.registration-full .form_flex_4 [type=radio]:checked ~ label {
+    color: #0075FF;
+}
+
+.registration-full .form_flex_1 input::placeholder {
+    color: #B6B6B6;
+    font-size: 13px;
+    text-align: left;
+}
+
+.registration-full .form_flex_1 #time::placeholder,
+.form_flex_1 #time2::placeholder,
+.form_flex_1 #time3::placeholder {
+    text-align: center;
+    color: #0079fe;
+}
+
+.registration-full .marginY {
+    margin: 0 10px;
+}
+
+.registration-full .marginX {
+    margin-left: 11px;
+}
+
+.registration-full header form button {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270.9deg, #5403FF 0.33%, #00CCFF 99.93%);
+    border-radius: 5px;
+    position: relative;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 36px;
+    margin-bottom: 25px;
+    outline-color: transparent;
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease-in infinite;
+}
+
+.registration-full #p1, #p2, #p3 {
+    color: #FF0000;
+}
+
+.registration-full input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.registration-full input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.registration-full input[type='date'] {
+    -moz-appearance: textfield;
+}
+
+.about-the-app .about-the-app-header {
+    padding: 0 25px;
+}
+
+.about-the-app .about-the-app-header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 36px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.about-the-app .about-the-app-header h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.about-the-app .about-the-app-header .mt-2 {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.about-the-app .about-the-app-header h2::after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(192.04deg, #2272FE 0%, #8339FF 51.04%, #A700FF 100%);
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease-in infinite;
+}
+
+.about-the-app .about-the-app-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 35px;
+}
+
+.about-the-app .about-the-app-price-box.active {
+    border: 1px solid #18A9FF;
+    color: white;
+}
+
+.btn-animation {
+    margin: 40px 0;
+    background: linear-gradient(274.33deg, #481BFD 6.48%, #481BFD 6.49%, #00CCFF 49.72%, #AAEBFF 55.49%, #43D8FF 58.83%, #00CCFF 99.85%, #00CCFF 99.85%);
+    background-size: 400% 400%;
+    border-radius: 5px;
+    color: white;
+    width: 300px;
+    height: 45px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    z-index: 100;
+    -webkit-animation: AnimationName 10s ease-in-out infinite;
+    animation: AnimationName 10s ease-in-out infinite;
+}
+
+.btn-animation-text {
+    z-index: 99999;
+    position: relative;
+}
+
+
+.about-the-app .about-the-app-price-box {
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 11px;
+    width: 100%;
+}
+
+.pay-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 23px;
+}
+
+.pay-header .back {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 25px;
+    background: transparent;
+    border: none;
+    outline-color: transparent;
+    left: 5%;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.pay-form{
+    padding: 22px 23px;
+}
+
+.pay-form-label{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.pay-input{
+    border: 0.5px solid #6B6B6B;
+    border-radius: 15px;
+}
+
+
+
+
+.payment-method-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.payment-method-header .title {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    position: relative;
+    justify-content: center;
+    margin-top: 15px;
+    width: 100%;
+}
+.payment-method-header .title_info {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.payment-method-header .a-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-method-header .oplata .box_flex {
+    width: 125px;
+    height: 65px;
+}
+.payment-method-header .box_flex .fa {
+    font-size: 36px;
+    color: #2400FF;
+}
+.payment-method-header .box_flex span {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 14px;
+    color: #333333;
+    letter-spacing: 0.05em;
+}
+.payment-method-header .box_flex p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    margin-top: 8px;
+    color: #000000;
+}
+.payment-method-header ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.payment-method-header ul li {
+    color: #AAAAAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: left;
+    width: 85%;
+    height: 120px;
+    border: 1px solid #A1A1A1;
+    margin: 6px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-sizing: content-box;
+
+}
+.payment-method-header ul li:hover{
+    border: 2px solid #2472f8;
+    box-shadow: 0 1px 10px 0 rgba(36, 114, 248, 0.52);
+}
+
+.payment-method-header ul li input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.payment-method-header ul li label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-weight: 300;
+    font-size: 1.35em;
+    height: 80px;
+    z-index: 9;
+    cursor: pointer;
+    padding-left: 30px;
+    -webkit-transition: all 0.25s linear;
+    -webkit-tap-highlight-color: transparent;
+    margin-bottom: 0;
+}
+.payment-method-header ul li label .mar_bot {
+    margin: 0 10px 10px 10px;
+    width: 71px;
+    height: 45px;
+}
+.payment-method-header ul li label .mar_ri {
+    margin-left: 20px;
+    width: 71px;
+    height: 25px;
+}
+.payment-method-header .img_size{
+    width: 71px;
+    height: 25px;
+}
+
+.payment-method-header ul li .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid #A1A1A1;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    top: 40%;
+    left: 5%;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
+}
+.payment-method-header ul li .check::before {
+    display: block;
+    content: '';
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+}
+.payment-method-header input[type=radio]:checked~.check {
+    border: 1px solid #0029FF;
+}
+
+.payment-method-header input[type=radio]:checked~.check::before {
+    background: #0029FF;
+}
+
+.payment-method-header input[type=radio]:checked~label {
+    color: #0029FF;
+}
+.payment-method-header form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payment-method-header button {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270.9deg, #5403FF 0.33%, #00CCFF 99.93%);
+    border-radius: 5px;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 25px;
+    outline-color: transparent;
+    background-size: 400% 400%;
+    animation: AnimationName 5s ease-in infinite;
+}
+.payment-method-header .bottomNext{
+    position: relative;
+}
+
+.payment-method-header .bottomNext p {
+    color: #BBBBBB;
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.focus-none:focus{
+    box-shadow: none;
+    outline: unset;
+    border-color: unset;
+}
+
+.text-36 {
+    font-size: 36px;
+}
+
+.text-11{
+    font-size: 11px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.bg-linear-dark-blue {
+    background: linear-gradient(270deg, #3C31FF 0%, #0C97FE 100%);
+}
+
+.rounded-10 {
+    border-radius: 10px;
+}
+
+.bg-dark-yellow {
+    background: #FFD800;
+}
+
+.eco-block {
+    right: -1px;
+    top: -1px;
+}
+
+.rounded-5 {
+    border-radius: 5px;
+}
+
+@-webkit-keyframes AnimationButton {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 120%;
+    }
+}
+
+@keyframes AnimationButton {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 120%;
+    }
+}
 
 
 @-webkit-keyframes AnimationName {
