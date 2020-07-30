@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Оплатить</title>
+</head>
+
+<body class="pay-body vh-100 d-flex justify-content-between flex-column">
+<div class="pay-header position-relative">
+    <i class="fa fa-angle-left back"></i>
+
+    <p class="text-18 mb-0">Оплатить</p>
+</div>
+
+<div class="d-flex align-items-center flex-column justify-content-center mt-5">
+    <img src="images/lingvela-logo.png" class="border px-5 py-2 rounded-7 border-color-light-blue" alt="png">
+    <p class="text-14 mt-1">Lingvela</p>
+</div>
+
+<form class="pay-form h-100 px-5">
+    <div class="form-group">
+        <label for="name" class="pay-form-label text-muted ml-0 text-11 mb-0">Имя/Телефон</label>
+        <input type="text" class="form-control border-color-A3 px-0 py-0 rounded-0 focus-none border-left-0 border-top-0 border-right-0 border-bottom" id="name"
+               placeholder="+998998673152">
+    </div>
+    <div class="form-group">
+        <label for="pay" class="pay-form-label text-muted ml-0 text-11 mb-0">Сумма платежа</label>
+        <input type="text" class="form-control border-color-A3 px-0 py-0 rounded-0 focus-none border-left-0 border-top-0 border-right-0 border-bottom" id="pay"
+               placeholder="666.066.06">
+    </div>
+</form>
+<div class="d-flex flex-column align-items-center bottomNext">
+    <p class="text-body text-11">Ваша платежная информация защищена надежно</p>
+
+
+    <button type="button" onclick="window.location.href='../pages/Оплатить.html'">далее</button>
+</div>
+</body>
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>

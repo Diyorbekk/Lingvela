@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Настройки</title>
+</head>
+
+<body class="my-settings">
+<p class="text-18 text-center mt-4">Настройки</p>
+
+<div class="d-flex align-items-center mx-5">
+    <div class="my-settings-back-img-gradient">
+        <img src="images/Layer_23.png" class="my-settings-img" alt="png">
+        <div class="my-settings-back-photo-img-gradient">
+            <img src="images/photo-icon.svg" alt="svg" class="photo-icon">
+        </div>
+    </div>
+
+    <div class="d-flex flex-column ml-3">
+        <p class="text-17 mb-0">Сирожиддин</p>
+        <p class="text-13 color-9C mb-0">Мой статус</p>
+    </div>
+</div>
+
+<div class="settings-box mx-5 mt-4 mb-4 py-5 border-top border-color-A9 accordion-block position-relative">
+    <div class="d-flex justify-content-between align-items-center accordion-toggle mb-4">
+        <div class="d-flex align-items-center">
+            <p class="text-17 mb-0">Уведомления и звуки</p>
+        </div>
+
+        <i class="fa fa-angle-right right-icon-angle icon-plus"></i>
+    </div>
+
+    <div class="accordion-content mb-4 pl-3" style="display: none">
+        <div class="d-flex align-items-center justify-content-between mb-4">
+            <p id="demo" class="text-14 mb-0">Включить</p>
+
+            <div class="toggle toggler--is-active" id="filt-css">
+                <input type="checkbox" id="switcher" class="check">
+
+                <b class="b switch"></b>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center accordion-toggle mb-4">
+            <div class="d-flex align-items-center">
+                <p class="text-14 mb-0">Сигналы</p>
+            </div>
+
+            <i class="fa fa-angle-right right-icon-angle icon-plus"></i>
+        </div>
+        <div class="accordion-content mb-4 pl-3" style="display: none"></div>
+
+        <div class="d-flex flex-column">
+            <p class="text-14">Напомнить</p>
+
+            <div class="d-flex align-items-center mb-3">
+                <input type="time" placeholder="" id="time" class="">
+
+                <label for="time" class="for-time-input ml-3 mb-0">Изменить</label>
+            </div>
+
+            <div class="d-flex align-items-center mb-3">
+                <input type="time" placeholder="" id="time2" class="">
+
+                <label for="time2" class="for-time-input ml-3 mb-0">Изменить</label>
+            </div>
+
+            <div class="d-flex align-items-center">
+                <input type="time" placeholder="" id="time3" class="">
+
+                <label for="time3" class="for-time-input ml-3 mb-0">Изменить</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <p class="text-17 mb-0">Оценить нас</p>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <p class="text-17 mb-0">Служба поддержки</p>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <p class="text-17 mb-0">Поделиться</p>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <p class="text-17 mb-0">Изменить пароль</p>
+    </div>
+
+</div>
+
+<p class="text-14 text-center">Мы в социальных сетях</p>
+
+<div class="d-flex align-items-center mx-5 mb-5 justify-content-between">
+    <a href=""><img src="images/vkontact-social.svg" alt="svg"></a>
+    <a href=""><img src="images/instagram-social.svg" alt="svg"></a>
+    <a href=""><img src="images/facebook-social.svg" alt="svg"></a>
+    <a href=""><img src="images/youtube-social.svg" alt="svg"></a>
+    <a href=""><img src="images/twitter-social.svg" alt="svg"></a>
+    <a href=""><img src="images/telegram-social.svg" alt="svg"></a>
+
+</div>
+
+<div class="empty-block"></div>
+
+<div class="menu-panel">
+    <a href="">
+        <img src="images/home.svg" alt="svg">
+    </a>
+    <a href="">
+        <img src="images/music.svg" alt="svg">
+    </a>
+    <a href="">
+        <img src="images/panel-book.svg" alt="svg">
+    </a>
+    <a href="">
+        <img src="images/panel-joystic.svg" alt="svg">
+    </a>
+    <a href="">
+        <img src="images/panel-play.svg" alt="svg">
+    </a>
+</div>
+
+</body>
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    $(".accordion-block").find(".accordion-toggle").on('click', function () {
+        $(this).toggleClass("active-tab").find("i").toggleClass("icon-minus icon-plus");
+        $(this).next().toggleClass("open").slideToggle("fast");
+    });
+
+    var
+        e = document.getElementById("filt-css"),
+        d = document.querySelector(".toggler--is-active"),
+        b = document.getElementById("switcher");
+    t = document.querySelector(".toggler--is-active");
+
+    e.addEventListener("click", function () {
+
+        if (b.checked === false) {
+            d.classList.remove("toggler--in-active");
+            t.classList.add("toggler--is-active");
+            document.getElementById("demo").innerHTML = "Включить"
+        } else if (b.checked === true) {
+            d.classList.remove("toggler--is-active");
+            t.classList.add("toggler--in-active");
+            document.getElementById("demo").innerHTML = "Отключить"
+        }
+    });
+</script>
+</html>

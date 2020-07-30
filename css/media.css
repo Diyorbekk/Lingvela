@@ -82,6 +82,18 @@
         width: 61px;
         height: 22px;
     }
+    .owl-carousel .owl-stage {
+        height: 550px !important;
+    }
+
+
+
+}
+
+@media (max-width: 320px){
+    .owl-carousel .owl-stage {
+        height: 450px !important;
+    }
 }
 
 

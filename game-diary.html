@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Game</title>
+</head>
+
+<body class="game-catalog">
+<div class="pay-header position-relative">
+    <i class="fa fa-angle-left back color-C4"></i>
+
+    <p class="text-18 mb-0">Дневник</p>
+</div>
+<div class="px-4 accordion-block position-relative">
+    <div class="d-flex justify-content-between align-items-center accordion-toggle mb-4">
+        <div class="d-flex align-items-center">
+            <p class="text-24 mb-0">День 1</p>
+        </div>
+
+        <i class="fa fa-angle-right text-body right-icon-angle icon-plus"></i>
+    </div>
+
+    <div class="accordion-content mb-4 pl-3" style="display: none">
+    </div>
+</div>
+
+
+</body>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(".accordion-block").find(".accordion-toggle").on('click', function () {
+        $(this).toggleClass("active-tab").find("i").toggleClass("icon-minus icon-plus");
+        $(this).next().toggleClass("open").slideToggle("fast");
+    });
+</script>
+</html>

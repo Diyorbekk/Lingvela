@@ -16,6 +16,21 @@ $(document).ready(function () {
         $('.modal-for-blur').css('filter', 'unset')
     });
 
+    $('.my-music .theme-night').on("click", function () {
+        $('.my-music,.menu-panel,.moon-icon,.panel-icons').toggleClass('night');
+        $('.text-18,.text-20,.text-14').toggleClass('text-white');
+    });
+
+    $('.my-new-music .theme-night').on("click", function () {
+        $('.my-new-music,.list-icon-play,.moon-icon,.panel-icons').toggleClass('night');
+        $('.text-18,.text-11').toggleClass('text-white');
+    });
+
+    $('.my-music-play .theme-night').on("click", function () {
+        $('.my-music-play,.heart-icon,.my-music-play-header,.player-fixed,.play-icon,.ft-played-round-bg,.ft-played,.ft-played-round').toggleClass('night');
+        $('.text-18,.text-11,.text-20').toggleClass('text-white');
+    });
+
 
 
 
@@ -23,20 +38,17 @@ $(document).ready(function () {
     $('#ru').on('click', function() {
         if ($('#uz').css('display') === 'none' || $('#ki').css('display') === 'none'){
             $('#ru').on('click', function() {
-                $('#ru').show()
-                $('#ru .fa').addClass('fa-chevron-up')
-                $('#uz').show()
-                $('#ki').show()
-                $('#ki').addClass('active-border')
-                $('#uz').removeClass('active-border')
-                $('#ru').removeClass('active-border')
+                $('#ru').show().removeClass('active-border');
+                $('#ru .fa').addClass('fa-chevron-up');
+                $('#uz').show().removeClass('active-border');
+                $('#ki').show().addClass('active-border');
             })
         }
         else {
-            $('#uz').hide()
-            $('#ki').hide()
-            $('#ru .fa').removeClass('fa-chevron-up')
-            $('#ru .fa').addClass('fa-chevron-down')
+            $('#uz').hide();
+            $('#ki').hide();
+            $('#ru .fa').removeClass('fa-chevron-up');
+            $('#ru .fa').addClass('fa-chevron-down');
             $('#ru').addClass('active-border')
         }
     });
@@ -44,22 +56,19 @@ $(document).ready(function () {
     $('#ki').on('click', function() {
         if ($('#ru').css('display') === 'none' || $('#uz').css('display') === 'none'){
             $('#ki').on('click', function() {
-                $('#ru').show()
-                $('#uz').show()
-                $('#ru .fa').addClass('fa-chevron-up')
-                $('#ki .fa').removeClass('fa-chevron-down')
-                $('#ki').show()
-                $('#ki').addClass('active-border')
-                $('#ki').removeClass('active-top')
+                $('#ru').show();
+                $('#uz').show();
+                $('#ru .fa').addClass('fa-chevron-up');
+                $('#ki .fa').removeClass('fa-chevron-down');
+                $('#ki').show().removeClass('active-top').addClass('active-border');
             })
         }
         else{
-            $('#uz').hide()
-            $('#ru').hide()
-            $('#ru .fa').removeClass('fa-chevron-up')
-            $('#ki .fa').addClass('fa-chevron-down')
-            $('#ki').addClass('active-border')
-            $('#ki').addClass('active-top')
+            $('#uz').hide();
+            $('#ru').hide();
+            $('#ru .fa').removeClass('fa-chevron-up');
+            $('#ki .fa').addClass('fa-chevron-down');
+            $('#ki').addClass('active-border').addClass('active-top')
         }
 
     });
@@ -68,22 +77,18 @@ $(document).ready(function () {
         if ($('#ru').css('display') === 'none' || $('#ki').css('display') === 'none'){
             $('#uz').on('click', function() {
                 $('#ru').show()
-                $('#uz').show()
-                $('#ru .fa').addClass('fa-chevron-up')
+                $('#uz').show().removeClass('active-border').removeClass('active-top');
+                $('#ru .fa').addClass('fa-chevron-up');
                 $('#uz .fa').removeClass('fa-chevron-down')
-                $('#ki').show()
-                $('#ki').addClass('active-border')
-                $('#uz').removeClass('active-top')
-                $('#uz').removeClass('active-border')
+                $('#ki').show().addClass('active-border')
             })
         }
         else {
-            $('#ki').hide()
-            $('#ru').hide()
-            $('#ru .fa').removeClass('fa-chevron-up')
-            $('#uz .fa').addClass('fa-chevron-down')
-            $('#uz').addClass('active-border')
-            $('#uz').addClass('active-top')
+            $('#ki').hide();
+            $('#ru').hide();
+            $('#ru .fa').removeClass('fa-chevron-up');
+            $('#uz .fa').addClass('fa-chevron-down');
+            $('#uz').addClass('active-border').addClass('active-top');
         }
     });
 

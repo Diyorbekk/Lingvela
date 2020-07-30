@@ -1213,7 +1213,8 @@ input::-webkit-inner-spin-button {
     flex-direction: column;
     align-items: center;
 }
-.payment-method-header button {
+.payment-method-header button,
+.pay-body button {
     width: 140px;
     height: 40px;
     background: linear-gradient(270.9deg, #5403FF 0.33%, #00CCFF 99.93%);
@@ -1227,23 +1228,525 @@ input::-webkit-inner-spin-button {
     background-size: 400% 400%;
     animation: AnimationName 5s ease-in infinite;
 }
-.payment-method-header .bottomNext{
+.payment-method-header .bottomNext,
+.pay-body .bottomNext{
     position: relative;
 }
 
-.payment-method-header .bottomNext p {
+.payment-method-header .bottomNext p,
+.pay-body .bottomNext p {
     color: #BBBBBB;
-    font-size: 13px;
     margin-bottom: 20px;
     text-align: center;
 }
 
+.my-profile-back-img-gradient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120.34deg, #DC03FF -0.86%, #359CFF 69.89%, #00CCFF 85.83%);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.my-profile-img{
+    width: 134px;
+    height: 134px;
+}
+
+.settings-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-box:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background: linear-gradient(11.82deg, #00DDFF 0%, #4400FF 46.48%, #F600E7 90.06%);
+}
+
+.right-icon-angle{
+    color: #c4c4c4;
+    font-size: 24px;
+}
+
+.accordion-toggle i.icon-plus,
+.accordion-toggle i.icon-minus {
+    transform-origin: 50% 50%;
+    transition: all 0.5s ease;
+    transform: rotate(90deg);
+}
+.accordion-toggle i.icon-plus {
+    transform: rotate(0deg);
+}
+
+.my-settings-back-img-gradient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120.34deg, #DC03FF -0.86%, #359CFF 69.89%, #00CCFF 85.83%);
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.my-settings-img{
+    width: 72px;
+    height: 72px;
+    position: relative;
+    z-index: 4;
+}
+
+.my-settings-back-photo-img-gradient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.42);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+}
+
+.b {
+    display: block;
+}
+
+.toggle {
+    width: 38px;
+    position: relative;
+    height: 24px;
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+.check {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 6;
+}
+.check:checked ~ .switch {
+    right: 2px;
+    width: 20px;
+    height: 20px;
+    left: 43%;
+    transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition-property: left, right;
+    transition-delay: 0.08s, 0s;
+}
+.social{
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #3D3D3D;
+}
+.transform .youtube_with{
+    width: 30px;
+    height: 20px;
+}
+.switch {
+    position: absolute;
+    width: 20px;
+    left: 2px;
+    height: 20px;
+    top: 2px;
+    bottom: 2px;
+    right: 37.5%;
+    background-color: #fff;
+    border-radius: 36px;
+    z-index: 1;
+    transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition-property: left, right;
+    transition-delay: 0s, 0.08s;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.toggler--is-active {
+    background-color: #bbc;
+    transition: 0.5s ease-in-out;
+}
+
+.toggler--in-active{
+    background-color: #2ecc71;
+    transition: 0.5s ease-in-out;
+}
+
+#time, #time2, #time3 {
+    width: 38%;
+    border: none;
+    outline-color: transparent;
+    font-size: 18px;
+    height: 30px;
+    color: #3766FE;
+    background: transparent;
+    text-align: left;
+}
+
+.for-time-input{
+    color: #B6B6B6;
+    font-size: 13px;
+}
+
+.my-settings .empty-block{
+    height: 80px;
+}
+
+.theme-night{
+    position: absolute;
+    right: 40px;
+}
+
+.owl-item{
+    margin-right: 50px;
+}
+
+.owl-item img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-item .bg-opacity-4{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+}
+
+.owl-item .carousel-text{
+    visibility: hidden;
+}
+
+.owl-item.active.center .carousel-text{
+    visibility: visible;
+}
+
+.owl-item.active.center{
+    opacity: 1;
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+
+.owl-item.active.center .bg-opacity-4{
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav {
+    display: none !important;
+}
+.owl-carousel .owl-stage {
+    height: 600px !important;
+}
+
+.header-my-new-music{
+    height: 270px;
+}
+
+.header-img-my-new-music{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.header-img-my-new-music img{
+    width: 100%;
+}
+
+.header-img-my-new-music .bg-opacity-05{
+    position: absolute;
+}
+
+.search-xit-music{
+    position: relative;
+    z-index: 15;
+    padding-top: 20px;
+}
+
+.z-10{
+    z-index: 10;
+}
+
+.back-prev{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+}
+
+.search-pole{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.search-pole:focus{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: unset;
+    box-shadow: unset;
+    color: white;
+}
+
+.search-pole::placeholder{
+    color: white;
+}
+
+.bg-played{
+    height: 2px;
+    width: 100%;
+    background: #B4B4B4;
+    border-radius: 1px;
+    position: relative;
+    z-index: 2;
+}
+
+.ft-played{
+    height: 2px;
+    width: 28%;
+    background: #595959;
+    border-radius: 1px;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ft-played-round-bg{
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: rgba(103, 103, 103, 0.28);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ft-played-round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8px;
+    height: 8px;
+    background: #595959;
+    border-radius: 50%;
+    position: relative;
+    right: 0;
+}
+
+.game-first-entry-body{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-button{
+    background-image: url("../images/button.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 170px;
+    height: 40px;
+}
+
+.catalog-btn{
+    padding: 5px 15px;
+    background: linear-gradient(270deg, #4362BF 0%, #4068FB 100%);
+    border-radius: 15px;
+    border: none;
+}
+
+.border-span{
+    height: 1px;
+    width: 100%;
+    background: #ffffff;
+}
+
+.find-word{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #4362DF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #465DCB;
+}
+
+.find-word-enter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #4463C0 0%, #4169FC 100%);
+    border-radius: 5px;
+    color: white;
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.my-music.night,
+.my-new-music.night,
+.my-music-play.night{
+    background: #0A0A0A;
+}
+
+.my-music-play-header.night{
+    background: #1A1A1A;
+}
+
+.ft-played-round-bg.night{
+    background-color: transparent;
+}
+.ft-played.night,
+.ft-played-round.night{
+    background: white;
+}
+
+.list-icon-play.night{
+    fill: white;
+}
+
+.menu-panel.night,.player-fixed.night{
+    background: #0A0A0A;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.moon-icon.night{
+    fill: white;
+    stroke: white;
+}
+
+.list-icon-play{
+    fill: black;
+}
+
+.moon-icon{
+    fill: white;
+    stroke-width: 1px;
+    stroke: black;
+}
+
+.panel-icons.night{
+    fill: white;
+}
+
+.panel-icons{
+    fill: black;
+}
+
+.play-icon{
+    fill: #595959;
+}
+
+.heart-icon{
+    fill: black;
+}
+
+.heart-icon.night{
+    fill: white;
+}
+
+.play-icon.night{
+    fill: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-panel{
+    position: fixed;
+    bottom: 0;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 24px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-fixed{
+    background: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+.bg-white-opacity-08{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.83);
+    z-index: 5;
+}
 
 .focus-none:focus{
     box-shadow: none;
@@ -1251,8 +1754,53 @@ input::-webkit-inner-spin-button {
     border-color: unset;
 }
 
+
+.line-height-22{
+    line-height: 20px;
+}
+
+.color-42{
+    color: #4261CD;
+}
+
+.color-B4{
+    color: #B4B4B4;
+}
+
+.color-C4{
+    color: #c4c4c4!important;
+}
+
+.text-32{
+    font-size: 32px;
+}
+
+.text-48{
+    font-size: 48px;
+}
+
 .text-36 {
     font-size: 36px;
+}
+
+.text-30{
+    font-size: 30px;
+}
+
+.text-24{
+    font-size: 24px;
+}
+
+.text-20{
+    font-size: 20px;
+}
+
+.text-14{
+    font-size: 14px;
+}
+
+.text-13{
+    font-size: 13px;
 }
 
 .text-11{
@@ -1263,8 +1811,16 @@ input::-webkit-inner-spin-button {
     font-size: 18px;
 }
 
+.text-17{
+    font-size: 17px;
+}
+
 .bg-linear-dark-blue {
     background: linear-gradient(270deg, #3C31FF 0%, #0C97FE 100%);
+}
+
+.color-9C{
+    color: #9E9E9E;
 }
 
 .rounded-10 {
@@ -1282,6 +1838,22 @@ input::-webkit-inner-spin-button {
 
 .rounded-5 {
     border-radius: 5px;
+}
+
+.rounded-7{
+    border-radius: 7px;
+}
+
+.border-color-light-blue{
+    border-color: #95E5FF !important;
+}
+
+.border-color-A3{
+    border-color: #A3A3A3 !important;
+}
+
+.border-color-A9{
+    border-color: #A9A9A9 !important;
 }
 
 @-webkit-keyframes AnimationButton {
