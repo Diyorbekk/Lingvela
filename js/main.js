@@ -1,18 +1,18 @@
 $(document).ready(function () {
     $('.language-box-text').on('click', function() {
         $('#default').hide()
-        $('#ru').css('display', 'flex')
-        $('#uz').css('display', 'flex')
+        $('#ru').css('display', 'flex');
+        $('#uz').css('display', 'flex');
         $('#ki').css('display', 'flex')
     });
 
     $('.gradient-button').on('click',function () {
-        $('.modal-confirm').css('display', 'flex')
+        $('.modal-confirm').css('display', 'flex');
         $('.modal-for-blur').css('filter', 'blur(2px)')
     });
 
     $('.modal-confirm .gradient-button').on('click',function () {
-        $('.modal-confirm').css('display', 'none')
+        $('.modal-confirm').css('display', 'none');
         $('.modal-for-blur').css('filter', 'unset')
     });
 
@@ -29,6 +29,11 @@ $(document).ready(function () {
     $('.my-music-play .theme-night').on("click", function () {
         $('.my-music-play,.heart-icon,.my-music-play-header,.player-fixed,.play-icon,.ft-played-round-bg,.ft-played,.ft-played-round').toggleClass('night');
         $('.text-18,.text-11,.text-20').toggleClass('text-white');
+    });
+
+    $('.my-films .theme-night').on("click", function () {
+        $('.my-films,.menu-panel,.moon-icon,.panel-icons').toggleClass('night');
+        $('p').toggleClass('text-white');
     });
 
 
