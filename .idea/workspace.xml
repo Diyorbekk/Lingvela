@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ae85432-79bf-4ddd-8030-e33cd9d7b6c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-the-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-the-app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/films.html" beforeDir="false" afterPath="$PROJECT_DIR$/films.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-catalog-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-catalog-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-diary-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-diary-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-diary.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-diary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-first-entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-first-entry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-run-good.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-run-good.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-run-perfect.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-run-perfect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/game-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-play.html" beforeDir="false" afterPath="$PROJECT_DIR$/music-play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-xit-music.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-xit-music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-method-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment-method-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-method-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment-method-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment-method.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phrases.html" beforeDir="false" afterPath="$PROJECT_DIR$/phrases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words-5000.html" beforeDir="false" afterPath="$PROJECT_DIR$/words-5000.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xit-music.html" beforeDir="false" afterPath="$PROJECT_DIR$/xit-music.html" afterDir="false" />
-    </list>
+    <list default="true" id="6ae85432-79bf-4ddd-8030-e33cd9d7b6c0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dlhyvH72jZkwAVIlwG76ladgqe" />
   <component name="ProjectLevelVcsManager">
@@ -102,6 +87,7 @@
       <workItem from="1595917208997" duration="69558000" />
       <workItem from="1597037374074" duration="2720000" />
       <workItem from="1597040416714" duration="1658000" />
+      <workItem from="1604294553523" duration="18000" />
     </task>
     <servers />
   </component>
